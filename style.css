@@ -1,0 +1,119 @@
+body {
+    background: url(/image/clear3.jpg) no-repeat;
+    /* width: 576px; */
+    /* height: 1280px; */
+    max-width: 576px;
+    max-height: 1280px;
+    /* background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    /* -moz-background-size: 100%; 
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%; */
+
+    font-family: 'Rubik', sans-serif;
+    /* font-family: sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: lighter;
+}
+
+;
+
+.container {
+    height: 100%;
+    width: 100%;
+    /* flex-direction: column; */
+    /* display: inline-block; */
+
+    /*     
+    display: inline-block;
+    flex-direction: column; */
+}
+.main-container {
+    height: 400px;
+    width: 100%;
+}
+
+/* .done {
+    margin-top: 450px;
+    text-align: center;
+    height: 35px;
+    font-size: 30px;
+    font-weight: 500;
+} */
+
+.auto {
+    margin-left: 28px;
+    margin-top: 502px;
+    /* margin-top: 25px; */
+    font-size: 23px;
+    float: left;
+    height: 50px;
+}
+
+.zone {
+    margin-right: 44px;
+    margin-top: 502px;
+    /* margin-top: 25px; */
+    font-size: 23px;
+    float: right;
+    height: 50px;
+}
+
+.time {
+    /* margin-top: 602px; */
+    text-align: center;
+    margin-top: 210px;
+    font-size: 23px;
+    /* float: right; */
+    /* height: 50px; */
+}
+
+.modal-choose {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#modal-window {
+    width: 400px;
+    height: 700px;
+    border: 1px solid black;
+    background-color: rgb(201, 186, 186);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+
+}
+
+.btn-close {
+    width: 350px;
+    height: 100px;
+    background-color: rgb(116, 108, 228);
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    font-size: 50px;
+}
