@@ -6,43 +6,19 @@ let parkTime;
 
 // Определение номера
 // let autoNum = 'М 910 МТ 29'
-let autoNum = 'М 910 МТ 29'
-document.getElementById('auto-num').innerText = autoNum;
+// let autoNum = 'М 910 МТ 29'
+// document.getElementById('auto-num').innerText = autoNum;
 
 // Определение парковочного места, определяется через promt
 // Теперь определяем через модальное окошко
 // Пока все проверки номера места отключаю
 function start() {
-    if (autoNum === 'М 910 МТ 29') {
-        document.body.style.backgroundImage = 'url(/image/clear3Artem.jpg)';
-    }
     cacl();
-    let x = parseInt(numPark)
-    console.log(x)
-    // console.log(typeof(x))
-    // x = parseInt(x)
-    console.log(typeof(x))
-    // if (typeof(x) == Number) {
-    //     console.log('Введенные данные: число')
-    // } else {
-    //     console.log('Введенные данные: НЕ число')
-
-    // }
-    // if (isNaN(x)) {
-    //     console.log('Попробуйте снова')
-    //     start("Ошибка ввода парковочного места, попробуйте снова.")
-    //     return
-    // } else if (x < 7800 || x > 7900) {
-    //     console.log('Попробуйте снова')
-    //     start("Нет такого номера парковочного места, если вы не согласны обратитесь к разработчику.")
-    //     return
-    // } else {
-        document.getElementById("park-num").innerText = x
-    // }
+    let x = parseInt(numPark);
+    document.getElementById("park-num").innerText = x;
     
 };
 
-// start("Введите номер парковочного места");
 
 // Выведем опеределение врмени и суммы в отдельную функцию
 function cacl() {
@@ -59,7 +35,7 @@ function cacl() {
     } else {
         money = 200
     };
-    // Для теста переворачиваем знак больше
+    // Для тестов переворачиваем знак больше
     if (h == 18) {
         if (timePark == 1) {
             money = 100
