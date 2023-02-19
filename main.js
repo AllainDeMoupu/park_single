@@ -92,6 +92,7 @@ const modalNum = document.getElementById('modal-choose-num');
 const modalTime = document.getElementById('modal-choose-time');
 const overlay = document.getElementById('overlay');
 
+const bntClose7807 = document.getElementById('btn-close7807');
 const bntClose7808 = document.getElementById('btn-close7808');
 const bntClose7809 = document.getElementById('btn-close7809');
 const bntClose7810 = document.getElementById('btn-close7810');
@@ -109,6 +110,11 @@ function chooseNumPark() {
     contentNum.innerHTML = "Выберете номер парковки";
     modalNum.style.display = 'block';
 
+    bntClose7807.addEventListener('click', () => {
+        numPark = 7807;
+        chooseTime()
+        modalNum.style.display = 'none';
+    });
     bntClose7808.addEventListener('click', () => {
         numPark = 7808;
         chooseTime()
