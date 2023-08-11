@@ -97,8 +97,8 @@ const bntClose7808 = document.getElementById('btn-close7808');
 const bntClose7809 = document.getElementById('btn-close7809');
 const bntClose7810 = document.getElementById('btn-close7810');
 const bntClose7812 = document.getElementById('btn-close7812');
-const bntClose7810 = document.getElementById('btn-close7815');
-const bntClose7812 = document.getElementById('btn-close7816');
+const bntClose7815 = document.getElementById('btn-close7815');
+const bntClose7816 = document.getElementById('btn-close7816');
 
 const bntClose1 = document.getElementById('btn-close1');
 const bntClose2 = document.getElementById('btn-close2');
