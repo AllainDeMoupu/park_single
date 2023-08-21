@@ -99,6 +99,7 @@ const bntClose7810 = document.getElementById('btn-close7810');
 const bntClose7812 = document.getElementById('btn-close7812');
 const bntClose7815 = document.getElementById('btn-close7815');
 const bntClose7816 = document.getElementById('btn-close7816');
+const bntClose7818 = document.getElementById('btn-close7818');
 
 const bntClose1 = document.getElementById('btn-close1');
 const bntClose2 = document.getElementById('btn-close2');
@@ -144,6 +145,11 @@ function chooseNumPark() {
     });
     bntClose7816.addEventListener('click', () => {
         numPark = 7816;
+        chooseTime()
+        modalNum.style.display = 'none';
+    });
+    bntClose7818.addEventListener('click', () => {
+        numPark = 7818;
         chooseTime()
         modalNum.style.display = 'none';
     });
