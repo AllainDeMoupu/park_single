@@ -98,9 +98,14 @@ const bntClose7809 = document.getElementById('btn-close7809');
 const bntClose7810 = document.getElementById('btn-close7810');
 const bntClose7812 = document.getElementById('btn-close7812');
 const bntClose7813 = document.getElementById('btn-close7813');
+const bntClose7814 = document.getElementById('btn-close7814');
 const bntClose7815 = document.getElementById('btn-close7815');
 const bntClose7816 = document.getElementById('btn-close7816');
+const bntClose7817 = document.getElementById('btn-close7817');
 const bntClose7818 = document.getElementById('btn-close7818');
+const bntClose7819 = document.getElementById('btn-close7819');
+const bntClose7820 = document.getElementById('btn-close7820');
+const bntClose7821 = document.getElementById('btn-close7821');
 
 const bntClose1 = document.getElementById('btn-close1');
 const bntClose2 = document.getElementById('btn-close2');
@@ -144,6 +149,11 @@ function chooseNumPark() {
         chooseTime()
         modalNum.style.display = 'none';
     });
+    bntClose7814.addEventListener('click', () => {
+        numPark = 7814;
+        chooseTime()
+        modalNum.style.display = 'none';
+    });
     bntClose7815.addEventListener('click', () => {
         numPark = 7815;
         chooseTime()
@@ -154,8 +164,28 @@ function chooseNumPark() {
         chooseTime()
         modalNum.style.display = 'none';
     });
+    bntClose7817.addEventListener('click', () => {
+        numPark = 7817;
+        chooseTime()
+        modalNum.style.display = 'none';
+    });
     bntClose7818.addEventListener('click', () => {
         numPark = 7818;
+        chooseTime()
+        modalNum.style.display = 'none';
+    });
+    bntClose7819.addEventListener('click', () => {
+        numPark = 7819;
+        chooseTime()
+        modalNum.style.display = 'none';
+    });
+    bntClose7820.addEventListener('click', () => {
+        numPark = 7820;
+        chooseTime()
+        modalNum.style.display = 'none';
+    });
+    bntClose7821.addEventListener('click', () => {
+        numPark = 7821;
         chooseTime()
         modalNum.style.display = 'none';
     });
